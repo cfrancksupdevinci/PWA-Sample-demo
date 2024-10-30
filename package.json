@@ -1,0 +1,14 @@
+{
+  "name": "pwa-sample-demo",
+  "version": "1.0.0",
+  "description": "<p>\r   <a href=\"https://github.com/devpato/PWA-Sample-demo/graphs/commit-activity\" target=\"_blank\">\r     <img alt=\"Maintenance\" src=\"https://img.shields.io/badge/Maintained%3F-yes-green.svg\" />\r   </a>\r   <a href=\"https://twitter.com/devpato\" target=\"_blank\">\r     <img alt=\"Twitter: devpato\" src=\"https://img.shields.io/twitter/follow/devpato?style=social\" />\r   </a>\r </p>",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
