@@ -19,8 +19,8 @@ app.get("/api/memoire", (req, res) => {
 });
 
 // Route pour le service worker
-app.get("/service-worker.js", (req, res) => {
-  res.sendFile(path.join(__dirname, "service-worker.js"));
+app.get("/sw.js", (req, res) => {
+  res.sendFile(path.join(__dirname, "sw.js"));
 });
 
 // Route pour mettre à jour la mémoire
