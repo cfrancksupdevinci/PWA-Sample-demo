@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 // Middleware pour servir des fichiers statiques (HTML, CSS, JS, Images)
-app.use(express.static(path.join(__dirname, "js")));
+app.use(express.static(path.join(__dirname)));
 
 // Middleware pour analyser le corps des requêtes JSON
 app.use(express.json());
