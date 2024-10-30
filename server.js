@@ -4,6 +4,8 @@ const path = require("path");
 const app = express();
 const port = 3000;
 
+const publickey = "IE78394udbie__d!!din34";
+
 // Middleware pour servir des fichiers statiques (HTML, CSS, JS, Images)
 app.use(express.static(path.join(__dirname)));
 
@@ -42,4 +44,12 @@ app.get("/", (req, res) => {
 // Démarrer le serveur
 app.listen(port, () => {
   console.log(`Le serveur est en cours d'exécution à http://localhost:${port}`);
+});
+
+app.get("/index.js", function (req, res) {
+  res.send(publickey);
+});
+
+app.post("/index.js", function (req, res) {
+  res.send(publickey);
 });
